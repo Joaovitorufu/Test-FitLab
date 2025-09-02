@@ -1,0 +1,44 @@
+.user-info{
+        display: flex;
+        gap: 15px; 
+        align-items: center;
+        margin-bottom: 20px;
+        
+    }
+
+    .foto{
+        height: 60px;
+        width: 60px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background-color: grey;
+        border-radius: 70%;
+    }
+
+    .text-elements{
+        flex-direction: column;
+        display: flex;
+        flex-grow: 1;
+        gap: 2px;
+        justify-content: center;
+        
+    }
+    .card{
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            width: 300px;
+    }
+
+    .buttons button{
+        padding: 5px;
+        border: 1px solid;
+        font-weight: bold;
+        margin: 0 5px;
+        
+    }
+    .buttons button:hover{
+        background-color: grey;
+
+    }
